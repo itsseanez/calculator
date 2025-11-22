@@ -1,3 +1,8 @@
+* {
+    color: #ffffff;
+    font-size: x-large;
+}
+
 html, body {
     display: flex;
     justify-content: center;
@@ -10,24 +15,27 @@ button {
     height: 12vh;
     width: 12vh;
     background-color: #302E30;
-    color: #ffffff;
-    font-size: large;
 }
 
 #calculator {
     background-color: black;
     height: 70vh;
-    width: 50vw;
+    width: 40vw;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-bottom: 3vh;
+    gap: 1vw;
 }
 
 #delete {
     background-color: red;
+}
+
+#order-screen {
+    color: #ACACAC;
 }
 
 .operator {
@@ -35,5 +43,14 @@ button {
 }
 
 #screen {
+    display: flex;
+    flex-direction: column;
     flex: 2;
+    padding-top: 10vh;
+    padding-left: 28vw;
+    text-align: right;
+}
+
+.text-color {
+
 }
