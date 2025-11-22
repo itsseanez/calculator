@@ -1,0 +1,39 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+button {
+    border-radius: 50%;
+    height: 12vh;
+    width: 12vh;
+    background-color: #302E30;
+    color: #ffffff;
+    font-size: large;
+}
+
+#calculator {
+    background-color: black;
+    height: 70vh;
+    width: 50vw;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3vh;
+}
+
+#delete {
+    background-color: red;
+}
+
+.operator {
+    background-color: #FF9200;
+}
+
+#screen {
+    flex: 2;
+}

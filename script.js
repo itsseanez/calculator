@@ -1,32 +1,21 @@
-let add = (x, y) => {
-    return Number(x) + Number(y);
-};
-
-let subtract = (x, y) => {
-    return Number(x) - Number(y);
-};
-
-let multiply = (x, y) => {
-    return Number(x) * Number(y);
-};
-
-let divide = (x, y) => {
-    return Number(x) / Number(y);
-};
+const operator = ['+', '-', '*', '/']
+let x, y;
 
 let operate = (operator, x, y) => {
-    switch(operator) {
+    let add = (x, y) => Number(x) + Number(y);
+    let subtract = (x, y) => Number(x) - Number(y);
+    let multiply = (x, y) => Number(x) * Number(y);
+    let divide = (x, y) => Number(x) / Number(y);
+
+    switch (operator) {
         case '+':
-            add(x, y);
-            break;
+            return add(x, y);
         case '-':
-            subtract(x,y);
-            break;
+            return subtract(x, y);
         case '*':
-            multiply(x, y);
-            break;
+            return multiply(x, y);
         case '/':
-            divide(x,y);
-            break;
+            return divide(x, y);
     }
 };
+
