@@ -30,7 +30,7 @@ button {
     gap: 1vw;
 }
 
-#delete {
+#delete-button {
     background-color: red;
 }
 
@@ -38,7 +38,7 @@ button {
     color: #ACACAC;
 }
 
-.operator {
+.operator-button {
     background-color: #FF9200;
 }
 
@@ -49,8 +49,4 @@ button {
     padding-top: 10vh;
     padding-left: 28vw;
     text-align: right;
-}
-
-.text-color {
-
 }
