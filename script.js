@@ -14,4 +14,19 @@ let divide = (x, y) => {
     return Number(x) / Number(y);
 };
 
-console.log(add(1,2))
+let operate = (operator, x, y) => {
+    switch(operator) {
+        case '+':
+            add(x, y);
+            break;
+        case '-':
+            subtract(x,y);
+            break;
+        case '*':
+            multiply(x, y);
+            break;
+        case '/':
+            divide(x,y);
+            break;
+    }
+};
